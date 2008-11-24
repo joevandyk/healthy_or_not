@@ -54,7 +54,7 @@
     </div>
     
     <div class="section" id="rss">
-      <a href="<?php bloginfo('rss2_url'); ?>"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/header-rss.gif" alt="Subscribe to RSS" /></a>
+      <a href="<?php bloginfo('rss2_url'); ?>">Subscribe to RSS</a>
     </div>
     
     <div class="section" id="categories">
