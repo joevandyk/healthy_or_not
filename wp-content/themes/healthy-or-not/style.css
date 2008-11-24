@@ -49,7 +49,7 @@ body {
   }
 
 #content {
-  font-family: 'Georgia', serif;
+  /*font-family: 'Georgia', serif;*/
   font-size: 1.3em
   }
 
@@ -175,11 +175,6 @@ h2, h2 a, h2 a:hover, h2 a:visited, h3, h3 a, h3 a:hover, h3 a:visited, #sidebar
   color: #409FCE;
   background: url(images/comments.gif) no-repeat 1px -1px;
   padding-left: 19px;
-  }
-
-.post img {
-  border: 3px solid #495F58;
-  padding: 2px !important;
   }
   
 .post p {
@@ -444,7 +439,8 @@ h2.pagetitle {
 h3.healthy, h3.not {
   margin: 0;
   float: right;
-  padding: 0.3em 0.5em;
+  padding: 0.3em 0.5em 0.15em;
+  margin-left: 15px;
   color: white;
   font-size: 1.2em;
 }
@@ -480,14 +476,18 @@ img.centered {
 
 img.alignright {
   padding: 4px;
-  margin: 0 0 2px 7px;
+  margin: 0 0 2px 15px;
   display: inline;
+  border: 3px solid #495F58;
+  padding: 2px !important;
   }
 
 img.alignleft {
   padding: 4px;
   margin: 0 7px 2px 0;
   display: inline;
+  border: 3px solid #495F58;
+  padding: 2px !important;
   }
 
 .alignright {
