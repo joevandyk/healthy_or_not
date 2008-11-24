@@ -2,7 +2,7 @@
 Theme Name: Healthy or Not
 Theme URI: http://www.healthyornot.com/
 Description: This is a customized theme based off of Kurbrick v1.6 specifically for Healthy or Not
-Version: 0.1
+Version: 0.9
 Author: Jordan Isip (Fixie Consulting)
 Author URI: http://www.fixieconsulting.com/
 Tags: two columns, fresh, calm, healthy, private-use
@@ -312,9 +312,8 @@ body {
   letter-spacing: -1px;
 }
 
-#main-nav ul li.active {
-  color: #CA5035;
-  font-weight: bold;
+#main-nav ul li#current a:link, #main-nav ul li#current a:visited {
+  /* Set within header.php */
 }
 
 #main-nav form {
@@ -325,14 +324,34 @@ body {
 #main-nav ul {
   margin: 0;
   padding: 0;
+  margin-top: 0.8em;
   }
   
 #main-nav ul li {
   list-style: none;
   float: left;
-  margin-top: 1.2em;
-  margin-right: 1.2em;
+  margin-right: 0.3em;
   }
+  
+#main-nav ul li a {
+  display: block;
+  text-indent: -5000px;
+  height: 25px;
+  width: 75px;
+  margin-top: 0.5em;
+}
+  
+#main-nav ul li#reviews a {
+  background: url(images/header-reviews.png) no-repeat;
+}
+
+#main-nav ul li#about a {
+  background: url(images/header-about.png) no-repeat;
+}
+  
+#main-nav ul li#shopping a {
+  background: url(images/header-shopping.png) no-repeat;
+}
   
 #seperator {
   clear: both;
@@ -367,10 +386,6 @@ body {
   margin: 0;
   }
 
-.postmetadata {
-  clear: both;
-}
-
 .clear {
   display: inline-block; }
   .clear:after {
@@ -388,10 +403,25 @@ body {
 
 
 #footer {
-  padding: 0;
+  background: url(images/bars.gif) repeat-x;
+  padding: 0.5em 0;
   clear: both;
-  text-align: center;
+  text-align: left;
   }
+  
+#footer p {
+  color: #777D7F;
+  font-size: 0.9em;
+  padding-bottom: 1.3em;
+  background: url(images/bars.gif) repeat-x bottom left;
+}
+
+#footer .rss {
+  float: right;
+  background: url(images/rss.gif) no-repeat right top;
+  padding-right: 14px;
+  padding-top: 1px;
+}
 
 /* End Structure */
 
@@ -406,6 +436,27 @@ h1, h2, h3 {
 h2.pagetitle {
   
 }
+
+.page-post h2 {
+  font-size: 2.8em;
+}
+
+h3.healthy, h3.not {
+  margin: 0;
+  float: right;
+  padding: 0.3em 0.5em;
+  color: white;
+  font-size: 1.2em;
+}
+
+h3.healthy {
+  background: #9CBE44;
+}
+
+h3.not {
+  background: #49493A;
+}
+
 /* End Headers */
 
 

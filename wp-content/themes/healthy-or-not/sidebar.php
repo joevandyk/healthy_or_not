@@ -43,7 +43,7 @@
 
     <div class="section" id="store">
       <h3>From our store&#133;</h3>
-      Store stuff
+      Coming soon&#133;
     </div>
     
     <div class="section" id="archives">
@@ -54,7 +54,7 @@
     </div>
     
     <div class="section" id="rss">
-      <a href="<?php bloginfo('rss2_url'); ?>"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/rss.gif" alt="Subscribe to RSS" /></a>
+      <a href="<?php bloginfo('rss2_url'); ?>"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/header-rss.gif" alt="Subscribe to RSS" /></a>
     </div>
     
     <div class="section" id="categories">
