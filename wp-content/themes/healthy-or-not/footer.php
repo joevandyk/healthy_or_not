@@ -13,7 +13,7 @@
 </div>
 </div>
 
-<!-- Gorgeous design by Michael Heilemann - http://binarybonsai.com/kubrick/ -->
+<!-- Gorgeous design by Jordan Isip - http://www.fixieconsulting.com -->
 <?php /* "Just what do you think you're doing Dave?" */ ?>
 
 		<?php wp_footer(); ?>

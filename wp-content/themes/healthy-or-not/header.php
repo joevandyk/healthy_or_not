@@ -3,7 +3,7 @@
 
 <head profile="http://gmpg.org/xfn/11">
 <meta http-equiv="Content-Type" content="<?php bloginfo('html_type'); ?>; charset=<?php bloginfo('charset'); ?>" />
-
+<meta name ="author" content = "FixieConsulting.com" />
 <title><?php bloginfo('name'); ?> <?php if ( is_single() ) { ?> &raquo; Blog Archive <?php } ?> <?php wp_title(); ?></title>
 
 <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="screen" />
@@ -11,7 +11,7 @@
 <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 <?php wp_head(); ?>
 <?php
-if ( is_home() ) { $current = 'reviews'; }
+if ( is_home() || is_single() ) { $current = 'reviews'; }
 elseif ( is_page('about') ) { $current = 'about'; }
 elseif ( is_page('shopping') ) { $current = 'shopping'; }
 ?>
