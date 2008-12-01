@@ -32,6 +32,13 @@ elseif ( is_page('shopping') ) { $current = 'shopping'; }
 
 </style>
 
+<!--[if IE 6]>
+<style type="text/css">
+  #sidebar { width: 190px; }
+</style>
+<![endif]-->
+
+
 </head>
 <body>
 <div id="header">

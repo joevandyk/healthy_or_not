@@ -2,7 +2,7 @@
 Theme Name: Healthy or Not
 Theme URI: http://www.healthyornot.com/
 Description: This is a customized theme based off of Kurbrick v1.6 specifically for Healthy or Not
-Version: 0.9
+Version: 1.0
 Author: Jordan Isip (Fixie Consulting)
 Author URI: http://www.fixieconsulting.com/
 Tags: two columns, fresh, calm, healthy, private-use
@@ -167,9 +167,12 @@ h2, h2 a, h2 a:hover, h2 a:visited, h3, h3 a, h3 a:hover, h3 a:visited, #sidebar
   border-top: 4px solid #9BBD42;
   background: #19201E;
   color: #A2C3AD;
-  padding: 1.9em 2em 1em 4em;
   position: relative;
   }
+
+.post-content {
+  padding: 1.9em 2em 1em 4em;
+}
 
 .post h2 {
   text-align: left;
@@ -361,7 +364,6 @@ body {
 
 .narrowcolumn {
   float: left;
-  padding: 0 0 20px 0;
   margin: 0px 0 0;
   width: 720px;
   }
@@ -644,6 +646,10 @@ select {
 #sidebar li ul li a {
   height: 1%;
   display: block;
+}
+
+#sidebar .widget_categories a {
+  display: inline !important;
 }
   
 #sidebar li ul li.categories {
