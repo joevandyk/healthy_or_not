@@ -167,9 +167,13 @@ h2, h2 a, h2 a:hover, h2 a:visited, h3, h3 a, h3 a:hover, h3 a:visited, #sidebar
   border-top: 4px solid #9BBD42;
   background: #19201E;
   color: #A2C3AD;
-  padding: 1.9em 2em 0.5em 4em;
+  padding: 1.9em 2em 1em 4em;
   position: relative;
   }
+
+.post h2 {
+  text-align: left;
+}
 
 .post a.comments-link:link, .post a.comments-link:visited {
   color: #409FCE;
