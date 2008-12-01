@@ -182,7 +182,7 @@ h2, h2 a, h2 a:hover, h2 a:visited, h3, h3 a, h3 a:hover, h3 a:visited, #sidebar
   }
   
 .post p {
-  line-height: 1.7em;
+  line-height: 1.55em;
   }
 
 .post .date {
@@ -613,46 +613,53 @@ select {
 #sidebar {
   margin-left: 750px;
   width: 200px;
+  padding: 0;
   }
   
-#sidebar .section {
+#sidebar li {
+  list-style: none;
   background: #F9F9F7;
   padding: 0.5em;
   padding-bottom: 0;
   margin-bottom: 1em;
   }
   
-#sidebar .section ul, #sidebar .section ul ol {
+#sidebar li ul, #sidebar .section li ol {
   margin: 0;
   padding: 0;
   }
 
-#sidebar .section h3 {
+#sidebar li h3 {
   padding-bottom: 0.5em;
   }
-
-#sidebar .section ul li {
+  
+#sidebar li ul li {
   border-top: 1px solid #DFE9E0;
   list-style-type: none;
   list-style-image: none;
   padding: 0.5em 0;
+  margin-bottom: 0;
   }
   
-#sidebar .section ul li a {
+#sidebar li ul li a {
   height: 1%;
   display: block;
 }
   
-#sidebar .section ul li.categories {
+#sidebar li ul li.categories {
   border-top: none;
   padding: 0;
   }
 
-#sidebar .section ul li.categories li a {
+#sidebar li ul li.categories li a {
   display: inline;
   height: auto;
 }
   
+#sidebar .wp-polls-ul li {
+  border: none;
+  padding: 0;
+}
 
 #sidebar form {
   margin: 0;
